@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+body{
+  font-family: 'Merienda', cursive;
+}
+h1{
+  background-color: #338F8E;
+  color: #fff;
+  text-align: center;
+  line-height: 12vh;
+}
+
+.modal-header, .modal-footer{
+  border: none;
+}

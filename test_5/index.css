@@ -1,0 +1,38 @@
+body{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+.container{
+	width: 80%;
+	height: 100%;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #eee;
+	perspective: 600px;
+}
+.card{
+	width: 200px;
+	height: 300px;
+	text-align: center;
+	padding-top: 10%;
+	font-size: 3em;
+	animation: ventiler 2s linear infinite alternate;
+}
+
+@keyframes ventiler {
+	0%{
+		background-color: rgba(66, 166, 133, 0.757);
+		color: rgba(66, 166, 133, 0.757);
+		transform: translateX(0px) rotate3d(100, 100, 0, 150deg);
+	}
+	100%{
+		background-color: rgba(226, 124, 15, 0.757);
+		color: #fff;
+		transform: translateX(10px) rotate3d(-100, -100, 0, 0deg);
+	}
+}
